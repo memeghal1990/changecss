@@ -1,0 +1,20 @@
+<mvc:View controllerName="com.meghalapps.controller.View1" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true" xmlns="sap.m">
+	<App>
+		<pages>
+			<Page title="{i18n>title}">
+				<content>
+					<Button text="color" id="label11"></Button> 
+					 <RadioButtonGroup id="rbgid" columns="1" width="500px" class="sapUiMediumMarginBottom" select="radiobuttonselect">
+  <buttons>
+                <RadioButton id="RB1" text="Put label11in process" />              
+                <RadioButton id="RB2" text="PostPone"  />
+                <RadioButton id="RB3" text="Complete"  />
+                <RadioButton id="RB4" text="Delete" />
+   </buttons>
+  </RadioButtonGroup>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
